@@ -14,17 +14,17 @@ function AsideToolBar() {
                         <Link href="#" className="text-2xl font-bold">LIGA ACADÊMICA</Link>
                     </div>
 
+                    <section className="space-y-3 mt-10 ">
+                        <Button title="Dashboard" href="#" style="pl-14" />
+                        <Button title="Atividades" href="#" style="pl-14" />
+                        <Button title="Eventos" href="#" icon={Calendars} />
+                        <Button title="Membros" href="#" icon={Users} />
+                        <Button title="Projetos" href="#" icon={Newspaper} />
+                        <Button title="Grupos de Estudo" href="#" icon={BookOpenText} />
+                        <Button title="Processo Seletivo" href="#" icon={ShieldUser} />
+                    </section>
                 </span>
 
-                <section className="space-y-3 mt-1 ">
-                    <Button title="Dashboard" href="#" style="pl-14" />
-                    <Button title="Atividades" href="#" style="pl-14" />
-                    <Button title="Eventos" href="#" icon={Calendars} />
-                    <Button title="Membros" href="#" icon={Users} />
-                    <Button title="Projetos" href="#" icon={Newspaper} />
-                    <Button title="Grupos de Estudo" href="#" icon={BookOpenText} />
-                    <Button title="Processo Seletivo" href="#" icon={ShieldUser} />
-                </section>
 
                 <footer className="space-y-3 mt-3">
                     <div className="flex items-center px-7 py-2 w-full rounded-xl bg-zinc-200 gap-3" >
